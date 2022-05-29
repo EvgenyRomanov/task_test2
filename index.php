@@ -59,12 +59,12 @@ $result['views'] = $views;
 $result['urls'] = count($urls);
 $result['traffic'] = $summaryTraffic;
 $result['statusCodes'] = $statusCodes;
-$result['$crawlers'] = $crawlers;
+$result['crawlers'] = $crawlers;
 
 $jsonResult = json_encode($result);
 
-echo "<pre>";
+echo '<pre>';
 echo $jsonResult;
-echo "</pre>";
+echo '</pre>';
 
 ?>
